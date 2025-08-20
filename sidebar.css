@@ -1,0 +1,178 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    top: 65px;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 100vh;
+    overflow-y: hidden;
+    
+}
+.sidebar:hover{
+    overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 3px;              /* vertical scrollbar width */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #999;  /* scrollbar handle */
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: #f1f1f1;  /* scrollbar background */
+}
+
+.top-section{
+    height: 115px;
+    padding-bottom: 15px;
+}
+
+.you-section{
+    
+    height: 250px;
+    padding-top: 10px;
+}
+
+.subscriptions{
+    margin-top: 15px;
+    height: 275px;
+    
+}
+
+.conclusion{
+    height: 180px;
+    
+}
+
+.sub-profile-text-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.sub-name{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+
+.sidebar img{
+    height: 28px;
+    display: inline-block;
+}
+
+.sidebar p{
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.sidebar button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar button:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.sidebar hr{
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.homebutton{
+    padding-right: 105px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.homebutton:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.shortsbutton{
+    padding-right: 104px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.subscriptionbutton{
+    padding-right: 66px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.youbutton{
+    padding-right: 145px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.historybutton{
+    background-color: white;
+    padding-right: 99px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.playlistbutton{
+    background-color: white;
+    padding-right: 99px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.yourvideosbutton{
+    background-color: white;
+    padding-right: 69px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.watchlaterbutton{
+    background-color: white;
+    padding-right: 71px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+}
+
+.likedvideosbutton{
+    background-color: white;
+    padding-right: 64px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+}
+
+.subscription-text{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sub-profile{
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.conclusion-text{
+    margin-left: -20px;
+    color: #999;
+}
+
+

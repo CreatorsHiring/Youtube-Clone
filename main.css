@@ -1,0 +1,146 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+@media(max-width: 1100px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 750px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+.adwatch, .adsignup{
+    margin-left: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;  
+    border-radius: 16px; 
+    border:solid 1px lightgray;
+    background-color:white;
+    color:rgb(2, 126, 167);
+    font-size: 14px;
+    font-weight: 450;
+    cursor: pointer;
+}
+.adsignup{
+    background-color: rgb(211, 232, 238);
+
+}
+.adsignup:hover{
+    background-color: rgb(191, 199, 201);
+}
+.adwatch:hover{
+    background-color: rgb(211, 232, 238);
+}
+
+.video{
+   
+    margin-bottom: 35px;
+    
+    
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.video-info{
+    display: grid;
+    grid-template-columns: 50px 1fr 20px;
+    column-gap: 5px;
+    padding-top: 10px;
+    
+}
+
+.video-stats{
+    margin-bottom: 10px;
+    
+   
+}
+
+.profile{
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.title{
+   font-weight: 500;
+   margin-bottom: 5px;
+   font-size: 16px;
+}
+
+.sponsored{
+    font-weight: 500;
+}
+
+.adsponsor{
+    color: gray;
+}
+
+.sponsored, .adsponsor{
+    font-size: 12px;
+}
+
+.kebabmenu{
+    width: 25px;
+    
+    cursor: pointer;
+}
+
+
+.channel-name, .views-date{
+    font-size: 15px;
+
+    color: rgb(102, 102, 102); 
+    
+}
+
+.newsdiv{
+    display: grid;
+    grid-template-columns: 300px 769px;
+    margin-bottom: 15px;
+}
+
+.newsheader{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.news{
+    font-size: 13px;
+    color: rgb(102, 102, 102); 
+}
+
+.menu{
+    margin-left: 769px;
+}
+
+.thumbnail-row{
+    position: relative;
+}
+.video-time{
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 7px;
+    right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+}
